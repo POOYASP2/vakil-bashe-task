@@ -235,6 +235,7 @@
     box-shadow: 10px 14px 44px 5px rgba(65, 79, 145, 0.05);
   }
   .headr-container {
+    padding-inline: 16px;
     display: flex;
     align-items: flex-end;
     gap: 14px;
