@@ -329,9 +329,17 @@
     max-width: 1440px;
     margin-inline: auto !important;
   }
+  .headr-container {
+    max-width: 1440px;
+    margin-inline: auto !important;
+  }
 }
 @media screen and (min-width: 1596px) {
   .container {
+    max-width: 1596px;
+    margin-inline: auto !important;
+  }
+  .headr-container {
     max-width: 1596px;
     margin-inline: auto !important;
   }
