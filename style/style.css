@@ -1,7 +1,28 @@
+@import './style-base.css';
+@import './style-mobile.css';
+@import './style-desktop.css';
 @font-face {
   font-family: Ykean;
   src: url(./fonts/Yekan.ttf);
 }
+:root {
+  --bg: #fbfcff;
+  --text-700: #5c5e6c;
+  --secondary-300: #fff8e3;
+}
+html {
+  box-sizing: content-box;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
 body {
   font-family: Ykean;
+  margin: 0;
+  font-size: 16px;
+  background: var(--bg, #fbfcff);
 }
